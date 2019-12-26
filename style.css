@@ -1,0 +1,28 @@
+body {
+    background: #fefefe;
+}
+
+.navHeader {
+    color: rgb(218, 31, 31);
+    background-color: plum;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mainHeader {
+    color: rgb(13, 90, 121);
+    font-size: 36px;
+}
+
+.sectionHeader {
+    color: rgb(241, 168, 11);
+    font-size: 24px;
+}
+
+.articleHeader {
+    color: rgb(239, 9, 247);
+    font-size: 16px;
+}
+
+p {
+    color: darkblue;
+}
