@@ -1,16 +1,26 @@
 body {
-    background: salmon;
+    background: #F4F4F9;
 }
 
-.navHeader {
+.navigation {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 16px;
+    background-color: #fffff1;
+}
+
+.navigation__link {
     color: rgb(218, 31, 31);
-    background-color: plum;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.mainHeader {
+.heading {
     color: rgb(13, 90, 121);
     font-size: 36px;
+    text-align: center;
 }
 
 .sectionHeader {
@@ -25,4 +35,83 @@ body {
 
 p {
     color: darkblue;
+}
+
+.about {
+}
+
+.about__header {
+    color: #2F4550;
+    font-size: 24px;
+    text-align: center;
+}
+
+.about__link {
+    color: #2D1E2F;
+}
+
+.about__paragraph {
+    padding: 16px;
+    line-height: 24px;
+    color: #2F4550;
+}
+
+.about__picture {
+    width: 100%;
+    max-width: 226px;
+    display: block;
+    float: left;
+    margin: 0 16px 16px 0;
+}
+.box{
+    width:100px;
+    height:100px;
+    background-color: greenyellow;
+    margin-top:51px;
+    border: 5px solid red;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
+}
+.section {
+    clear: both;
+}
+
+.section__header {
+    color: rgb(241, 168, 11);
+    font-size: 24px;
+}
+
+.article {}
+
+.article__header {
+    color: rgb(13, 90, 121);
+    font-size: 20px;
+}
+
+.article__paragraph {
+    color:  #2F4550;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 24px;
+}
+
+.article__paragraph--secondary{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.footer {
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline;
+}
+
+.link__footer {
+    color: #2D1E2F;
+    text-decoration: none;
+    display: inline;
+    padding-left: 90px; 
+    font-weight: bold;
 }
