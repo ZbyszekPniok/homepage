@@ -8,7 +8,7 @@ console.log ('My name is ' +name+ ` and I am ` +age+ ` years old`);
 const header = document.querySelector('.header--js');
 console.log (header);
 
-const about = document.querySelector('.about__header');
+const about11111 = document.querySelector('.about__header');
 console.log (about.innerHTML);
 about.innerHTML = `My name is ${name} and I am ${age} years old`
 
